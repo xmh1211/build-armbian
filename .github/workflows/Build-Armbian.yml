@@ -6,12 +6,10 @@ on:
       BOARD:  
         description: 'Board type'  
         required: true 
-        default: 'nanopct4'
+        default: 'hinlink-h68k'
         type: choice
         options:
-          - 'nanopct4'
-          - 'rock-5c'
-          - 'aml-s9xx-box'
+          - 'hinlink-h68k'
       BRANCH:  
         description: 'Armbian branch'  
         default: 'edge'  
