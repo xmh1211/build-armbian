@@ -31,7 +31,7 @@ on:
           - 'noble'
       Version:
         description: 'Armbian Version'
-        default: 'main'
+        default: 'v24.11'
         required: true 
         type: choice
         options: 
