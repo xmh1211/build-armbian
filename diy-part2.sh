@@ -28,4 +28,4 @@ sed -i 's/set system.@system[-1].timezone='UTC'/set system.@system[-1].timezone=
 
 sed -i '315 a set system.@system[-1].zonename='Asia/Shanghai' package/base-files/files/bin/config_generate
 
-sed -i 's/lan) ipad=${ipaddr:-"192.168.1.1"} ;;/lan) ipad=${ipaddr:-"192.168.100.1"} ;;/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
