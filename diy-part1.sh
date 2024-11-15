@@ -16,6 +16,7 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
 #sed用法里面，\t代表一个tab制表符，也就是缩进。
 #自行编译时，会出现内核的魔法值不一样，需要完成如下修改。这样的话在系统里更新软件包时就不会产生错误。
 echo 'f927e86044686b2ce4b806f436e32ca1' > vermagic
