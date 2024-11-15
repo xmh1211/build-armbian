@@ -16,6 +16,7 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+#sed用法里面，\t代表一个tab制表符，也就是缩进。
 echo 'f927e86044686b2ce4b806f436e32ca1' > vermagic
 
 sed -i '121 s/grep/#grep/g' include/kernel-defaults.mk
