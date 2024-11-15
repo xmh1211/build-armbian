@@ -26,6 +26,6 @@ sed -i 's/ImmortalWrt/X-WRT/g' package/base-files/files/bin/config_generate
 
 sed -i 's/UTC/CST-8/g' package/base-files/files/bin/config_generate
 
-sed -i '316a \\tset system.@system[-1].zonename='Asia/Shanghai'' include/kernel-defaults.mk
+sed -i '316a \\t\tset system.@system[-1].zonename='Asia/Shanghai'' package/base-files/files/bin/config_generate
 
 sed -i '165 s/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
