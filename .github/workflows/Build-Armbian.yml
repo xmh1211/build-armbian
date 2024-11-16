@@ -63,7 +63,7 @@ on:
           - 'no'
       DOCKER_ARMBIAN_BASE_IMAGE:
         description: 'Docker IMAGE'
-        default: 'ubuntu:jammy'
+        default: 'debian:bookworm'
         required: false
         type: choice
         options:
