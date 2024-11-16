@@ -47,7 +47,7 @@ on:
           - 'no'
       BUILD_MINIMAL:  
         description: 'BUILD MINIMAL environment'  
-        default: 'yes'  
+        default: 'no'  
         required: false  
         type: choice
         options:
@@ -55,7 +55,7 @@ on:
           - 'no'
       PREFER_DOCKER:
         description: 'Use Docker build'
-        default: 'no'
+        default: 'yes'
         required: false
         type: choice
         options:
