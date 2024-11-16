@@ -12,7 +12,7 @@ on:
           - 'hinlink-h68k'
       BRANCH:  
         description: 'Armbian branch'  
-        default: 'edge'  
+        default: 'all'  
         required: true 
         type: choice 
         options:
