@@ -12,7 +12,7 @@ on:
           - 'hinlink-h68k'
       BRANCH:  
         description: 'Armbian branch'  
-        default: 'all'  
+        default: 'edge'  
         required: true 
         type: choice 
         options:
@@ -21,7 +21,7 @@ on:
           - 'vendor'
       RELEASE:  
         description: 'Release name' 
-        default: 'bookworm'
+        default: 'jammy'
         required: true  
         type: choice
         options:
